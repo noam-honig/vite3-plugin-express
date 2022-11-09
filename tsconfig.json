@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "noUnusedLocals": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "esnext",
+    "module": "esnext",
+    "skipLibCheck": true,
+    "lib": [
+      "esnext"
+    ],
+    "types": [
+      "@types/node"
+    ],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
