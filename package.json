@@ -1,9 +1,13 @@
 {
   "name": "vite3-plugin-express",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A vite plugin that hot reloads a node express server",
   "main": "index.js",
   "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noam-honig/vite3-plugin-express"
+  },
   "scripts": {
     "build": "tsc",
     "release":"tsc && npm publish --access public"
