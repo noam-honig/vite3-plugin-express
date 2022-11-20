@@ -8,7 +8,7 @@ In `vite.config.ts`
 ```ts
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { express } from "vite3-plugin-express"
+import express from "vite3-plugin-express"
 
 export default defineConfig({
   plugins: [vue(), express('express-server.ts')]
