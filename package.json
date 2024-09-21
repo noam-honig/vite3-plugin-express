@@ -1,6 +1,6 @@
 {
   "name": "vite3-plugin-express",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "A vite plugin that hot reloads a node express server",
   "main": "index.js",
   "types": "index.d.ts",
