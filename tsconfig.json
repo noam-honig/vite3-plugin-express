@@ -6,18 +6,12 @@
     "noUnusedLocals": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES5",
-    "module": "CommonJS",
+    "target": "ES2022",
+    "module": "ES2020",
     "skipLibCheck": true,
-    "lib": [
-      "esnext"
-    ],
-    "types": [
-      "@types/node"
-    ],
+    "lib": ["esnext"],
+    "types": ["@types/node"],
     "sourceMap": true
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
